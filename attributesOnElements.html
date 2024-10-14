@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Attributes Explained</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        code {
+            background-color: #eaeaea;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
 </head>
 <body>
+    <h1>Understanding HTML Attributes</h1>
+    <p>In HTML, attributes provide additional information about elements. They are always specified in the opening tag of an element and are composed of a name and a value.</p>
     
+    <h2>Basic Syntax</h2>
+    <p>The syntax for an attribute is as follows:</p>
+    <code>&lt;element attribute="value"&gt;</code>
+    
+    <h2>Common Attributes</h2>
+    <ul>
+        <li><strong>id</strong>: Uniquely identifies an element.</li>
+        <li><strong>class</strong>: Specifies one or more class names for an element (used for styling).</li>
+        <li><strong>style</strong>: Allows inline CSS styles to be applied directly to an element.</li>
+        <li><strong>href</strong>: Specifies the URL for links (used with the <code>&lt;a&gt;</code> tag).</li>
+        <li><strong>src</strong>: Specifies the URL of an image (used with the <code>&lt;img&gt;</code> tag).</li>
+        <li><strong>alt</strong>: Provides alternative text for images, improving accessibility.</li>
+    </ul>
+
+    <h2>Examples</h2>
+    <h3>Using the <code>&lt;a&gt;</code> Element</h3>
+    <code>&lt;a href="https://www.example.com" target="_blank"&gt;Visit Example&lt;/a&gt;</code>
+    <p>This link will open in a new tab due to the <code>target="_blank"</code> attribute.</p>
+
+    <h3>Using the <code>&lt;img&gt;</code> Element</h3>
+    <code>&lt;img src="image.jpg" alt="Description of image" /&gt;</code>
+    <p>The <code>alt</code> attribute describes the image for screen readers.</p>
+
+    <h2>Conclusion</h2>
+    <p>HTML attributes enhance elements by providing additional information that can be used for styling, linking, and accessibility. Understanding attributes is crucial for effective web development.</p>
 </body>
 </html>
